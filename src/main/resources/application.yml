@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: notifier
+  datasource:
+    name: notifier
+    url: jdbc:mysql://127.0.0.1:3306/notifier?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password:
