@@ -4,3 +4,8 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/notifier?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password:
+
+wecom:
+  agentId: 100
+  corpId: test-corp-id
+  corpSecret: test-corp-secret
